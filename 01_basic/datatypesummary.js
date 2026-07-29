@@ -11,10 +11,10 @@ const isLoggedIn = false
  const outsideTemp =null
  let userEmail;
 
- const id = symbol('123')
- const anotherId = symbol('123')
+//  const id = symbol('123')
+//  const anotherId = symbol('123')
 
- console.log(id === anotherId);
+//  console.log(id === anotherId);
 
 
  const BigInt = 7142383179n
@@ -35,3 +35,27 @@ const myfunction = function(){
     console.lo("hello world "); 
 
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitives) and heap (non-primitives) memory allocation
+
+let myYoutubename = "iyc247"
+
+let anothername = myYoutubename
+
+anothername = "code with sohail"
+console.log(myYoutubename)
+console.log(anothername)
+
+let useOne ={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sohail@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
