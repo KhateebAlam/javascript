@@ -36,7 +36,8 @@ val3 = undefined ?? 178;
 
 console.log (val1);                         
 console.log (val2); 
-console.log (val3);          
+console.log (val3); 
+
 // Terniary Operator
 
 // condition ? true : false
